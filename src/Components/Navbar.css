@@ -1,0 +1,74 @@
+.symbols-button-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    margin-right: 50px;
+    
+}
+.ri-sun-line {
+    font-size: 23px; 
+}
+.ri-user-3-fill {
+    font-size: 23px; 
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+button{
+    font-size: 18px;
+    border: 1px solid;
+   
+}
+.dark-mode-image i {
+    margin-right: 15px; 
+}
+.nav-container {
+    margin-bottom: -25px; 
+}
+/* .dark-mode-image i:hover{
+    color: red;
+} */
+button:hover{
+    color:red
+}
+.navbar{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    /* box-shadow:2px 2px  2px 2px whitesmoke; */
+    /* background-color:#ebebeb */
+}
+.logohead{
+    background-color: white;
+    padding: 18px;
+    padding-left: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+    padding-top: 23px;
+    color:black
+}
+.ri-user-3-fill{
+    padding-right: 15px;
+}
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #f8f8f8; */
+}
+.ri-moon-line{
+    font-size: 15p;
+}
+i:hover{
+    cursor: pointer;
+}

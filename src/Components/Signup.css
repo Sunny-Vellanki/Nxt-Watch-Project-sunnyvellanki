@@ -1,0 +1,68 @@
+.containers {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background:whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    background-color: #fff;
+    border-radius:30px;
+    margin-left: 60px;
+    margin-right: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+}
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group select {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+.form-group i {
+    position: absolute;
+    top: 70%;
+    right: 25px;
+    transform: translateY(-70%);
+    color: #aaa;
+    color: black;
+    
+}
+.form-group input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+  
